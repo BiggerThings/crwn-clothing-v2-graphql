@@ -13,7 +13,7 @@ import { CartProvider } from './contexts/cart.context';
 import './index.scss';
 
 const httpLink = new HttpLink({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'https://crwn-clothing.com',
 });
 
 const client = new ApolloClient({
