@@ -26,7 +26,7 @@ const Category = () => {
 
 
 
-  const { data, loading, error } = useQuery(GET_CATEGORY, {
+  const { data, loading } = useQuery(GET_CATEGORY, {
     variables: {
       title: category
     }
